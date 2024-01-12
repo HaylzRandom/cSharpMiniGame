@@ -40,11 +40,11 @@ while (!shouldExit)
         // Play Game
         Move();
 
-        // if (AteFood())
-        // {
-        //     ChangePlayer();
-        //     ShowFood();
-        // }
+        if (AteFood())
+        {
+            ChangePlayer();
+            ShowFood();
+        }
     }
 }
 
@@ -69,11 +69,11 @@ void ShowFood()
     Console.Write(foods[food]);
 }
 
-// // Will determine if player ate food
-// bool AteFood()
-// {
-//     return playerY == foodY && playerX == foodX;
-// }
+// Will determine if player ate food
+bool AteFood()
+{
+    return playerY == foodY && playerX == foodX;
+}
 
 // Changes the player to match the food consumed
 void ChangePlayer()
