@@ -38,7 +38,20 @@ while (!shouldExit)
     else
     {
         // Play Game
-        Move();
+
+        // If player ate good food and is happy - speed boost
+        if (IsPlayerFast())
+        {
+            Move(1, false);
+        }
+        else if (IsPlayerSick()) // If player ate bad food - freeze movement
+        {
+            FreezePlayer();
+        }
+        else
+        {
+            Move(otherKeysExit: false);
+        }
 
         if (AteFood())
         {
@@ -83,6 +96,18 @@ void ChangePlayer()
     Console.Write(player);
 }
 
+// Checks if player ate bad food and has a state of - (X_X)
+bool IsPlayerSick()
+{
+    return player.Equals(states[2]);
+}
+
+// Checks if player ate good food and has a state of - (^-^)
+bool IsPlayerFast()
+{
+    return player.Equals(states[1]);
+}
+
 // Temporarily stops the player from moving
 void FreezePlayer()
 {
@@ -91,7 +116,7 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
-void Move(bool otherKeys = false)
+void Move(int speed = 1, bool otherKeysExit = false)
 {
     int lastX = playerX;
     int lastY = playerY;
@@ -105,17 +130,17 @@ void Move(bool otherKeys = false)
             playerY++;
             break;
         case ConsoleKey.LeftArrow:
-            playerX--;
+            playerX -= speed;
             break;
         case ConsoleKey.RightArrow:
-            playerX++;
+            playerX += speed;
             break;
         case ConsoleKey.Escape:
             shouldExit = true;
             break;
         default:
-            // Exit if any other kets are pressed
-            shouldExit = otherKeys;
+            // Exit if any other keys are pressed
+            shouldExit = otherKeysExit;
             break;
     }
 
