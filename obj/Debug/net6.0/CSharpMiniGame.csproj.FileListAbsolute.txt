@@ -1,0 +1,14 @@
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\bin\Debug\net6.0\CSharpMiniGame.exe
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\bin\Debug\net6.0\CSharpMiniGame.deps.json
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\bin\Debug\net6.0\CSharpMiniGame.runtimeconfig.json
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\bin\Debug\net6.0\CSharpMiniGame.dll
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\bin\Debug\net6.0\CSharpMiniGame.pdb
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\CSharpMiniGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\CSharpMiniGame.AssemblyInfoInputs.cache
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\CSharpMiniGame.AssemblyInfo.cs
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\CSharpMiniGame.csproj.CoreCompileInputs.cache
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\CSharpMiniGame.dll
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\refint\CSharpMiniGame.dll
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\CSharpMiniGame.pdb
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\CSharpMiniGame.genruntimeconfig.cache
+C:\Users\Hayley\Documents\Coding\C#\FreeCodeCamp\CSharpMiniGame\obj\Debug\net6.0\ref\CSharpMiniGame.dll
